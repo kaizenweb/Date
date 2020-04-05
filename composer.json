@@ -1,5 +1,5 @@
 {
-  "name": "Kaizen/Date",
+  "name": "kaizen/date",
   "description": "Allow the creation of immutable date object, with system timezone, account timezone and account format passed along.",
   "type": "package",
   "license": "BSD-3-Clause",
