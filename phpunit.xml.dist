@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="tests/bootstrap.php">
+  <testsuites>
+    <testsuite name="Date">
+      <directory>tests/Date/</directory>
+    </testsuite>
+    <testsuite name="Date: Format">
+      <directory>tests/Format</directory>
+    </testsuite>
+    <testsuite name="Value Object: Settings">
+      <directory>tests/Settings</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">src</directory>
+    </whitelist>
+  </filter>
+
+</phpunit>
